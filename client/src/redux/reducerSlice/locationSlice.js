@@ -9,8 +9,8 @@ const initialState = {
     lat: 27.6909512831845865,
     lng: 85.3496484712045
   },
-  pickUpAddress: '',
-  destinationAddress: ''
+  pickUpAddress: 'Not Selected',
+  destinationAddress: 'Not Selected'
 };
 
 export const locationSlice = createSlice({

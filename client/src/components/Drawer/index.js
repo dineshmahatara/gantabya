@@ -51,9 +51,11 @@ const CustomDrawer = (props) => {
 
   return (
     <>
+    <div style={{position:'absolute', zIndex:49, marginTop:'49px',left:0}}> 
       <Button type="primary" onClick={showDrawer}>
         <MenuOutlined />
       </Button>
+      </div>
       <Drawer
         title="Chose Your Gantabya"
         placement="left"
